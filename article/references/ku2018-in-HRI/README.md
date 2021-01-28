@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3173386.3177824,
+author = {Ku, Hyunjin and Choi, Jason J. and Lee, Soomin and Jang, Sunho and Do, Wonkyung},
+title = {Shelly, a Tortoise-Like Robot for One-to-Many Interaction with Children},
+year = {2018},
+isbn = {9781450356152},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3173386.3177824},
+doi = {10.1145/3173386.3177824},
+abstract = {We designed "Shelly", a robot interacting with children while restraining children»s robot abusing behaviors. Shelly has a tortoise-like friendly appearance and touch based simple and versatile interface, which encourages children to interact with the robot spontaneously in environments such as amusement park or kindergarten. We have developed two prototypes and proved validity of Shelly»s social concepts - one-to-many interaction and restraining robot abusing - through field tests. Ultimately, Shelly»s novel interface and interaction model targeted for multiple-children interaction would effectively attribute to various social goods.},
+booktitle = {Companion of the 2018 ACM/IEEE International Conference on Human-Robot Interaction},
+pages = {353–354},
+numpages = {2},
+keywords = {multi-modal interface, one-to-many interaction, non-verbal interface, robot abusing, animal-like robot},
+location = {Chicago, IL, USA},
+series = {HRI '18}
+}
