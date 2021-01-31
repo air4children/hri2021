@@ -75,8 +75,7 @@
 %%
 %% The "title" command has an optional parameter,
 %% allowing the author to define a "short title" to be used in page headers.
-\title{air4children: Artificial Intelligence and Robotics for Children}
-
+\title{AIR4children: Artificial Intelligence and Robotics for Children}
 %%
 %% The "author" command and its associated commands are used to define
 %% the authors and their affiliations.
@@ -106,13 +105,13 @@
 \country{Country}}
 \email{email@internet.org}
 
-\author{Miguel Xochicale}
+\author{Co-author C}
 \affiliation{%
-  \institution{King's College London}
-  \city{London}
-  \country{UK}}
+  \institution{University}
+  \city{City}
+  \country{Country}}
 \authornotemark[1]
-\email{miguel.xochicale@kcl.ac.uk}
+\email{e@mail.com}
 
 %%
 %% By default, the full list of authors will be used in the page
@@ -120,24 +119,17 @@
 %% other information printed in the page headers. This command allows
 %% the author to define a more concise list
 %% of authors' names for this purpose.
-\renewcommand{\shortauthors}{Xochicale M. et al.}
+\renewcommand{\shortauthors}{Lastname et al.}
 
 %%
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
-  A clear and well-documented \LaTeX\ document is presented as an
-  article formatted for publication by ACM in a conference proceedings
-  or journal publication. Based on the ``acmart'' document class, this
-  article presents and explains many of the common variations, as well
-  as many of the formatting elements an author may use in the
-  preparation of the documentation of their work.
-  A clear and well-documented \LaTeX\ document is presented as an
-  article formatted for publication by ACM in a conference proceedings
-  or journal publication. Based on the ``acmart'' document class, this
-  article presents and explains many of the common variations, as well
-  as many of the formatting elements an author may use in the
-  preparation of the documentation of their work.
+  In this work, we proposed air4children, artificial intelligence for children as a way to both (a) tackle aspect for inclusion and non-discrimination, agency, privacy, dignity, transparency, equity, fairness and participation and (b) child-centre approach for AI and robotics.
+  We introduce the present current challenges and opportunities for a child-centre approach for AI and robotics. 
+  Similarly, we touch on open-sourced software and hardware technologigies to make a more inclusive, transparent and fair participation of children in areas of AIR. 
+  Then, we describe the avenues that air4children can work with as development of open-sourced software and hardware, open-sourced teaching material. 
+  Finally, we add conclusions and future work. 
 \end{abstract}
 
 %%
@@ -183,7 +175,7 @@
 %%
 %% Keywords. The author(s) should pick words that accurately describe
 %% the work being presented. Separate the keywords with commas.
-\keywords{Child-robot interaction, child-centred AI, Educational Robotics}
+\keywords{Child-centred AI, Educational Robotics, Child-robot interaction}
 
 %% A "teaser" image appears between the author and affiliation
 %% information and the body of the document, and typically spans the
@@ -225,32 +217,13 @@ multiple interaction of one-to-many as well the resctrition of children
 abusive behaviours towards robots \cite{hu2018}. 
 
 
-ACM's consolidated article template, introduced in 2017, provides a
-
-consistent \LaTeX\ style for use across ACM publications, and
-incorporates accessibility and metadata-extraction functionality
-necessary for future Digital Library endeavors. Numerous ACM and
-SIG-specific \LaTeX\ templates have been examined, and their unique
-features incorporated into this single new template.
-
-If you are new to publishing with ACM, this document is a valuable
-guide to the process of preparing your work for publication. If you
-have published with ACM before, this document provides insight and
-instruction into more recent changes to the article template.
-
-The ``\verb|acmart|'' document class can be used to prepare articles
-for any ACM publication --- conference or journal, and for any stage
-of publication, from review to final ``camera-ready'' copy, to the
-author's own version, with {\itshape very} few changes to the source.
-
 \section{Open Source AI and Robotics}
-As noted in the introduction, the ``\verb|acmart|'' document class can
-be used to prepare many different kinds of documentation --- a
-double-blind initial submission of a full-length technical paper, a
-two-page SIGGRAPH Emerging Technologies abstract, a ``camera-ready''
-journal article, a SIGCHI Extended Abstract, and more --- all by
-selecting the appropriate {\itshape template style} and {\itshape
-  template parameters}.
+The spirit of open source software since 19XX with the contributions 
+of users of different skills made a culture of openly share code to make
+more robust tools (i.e. firefox, ubuntu, etc). Much recently, something 
+similar to software is happening for hardware. One example is the community 
+for arduino that open-sourced diagrams, code and with a low-cost microcontroller
+magaged to make wordwile impact.
 
 This document will explain the major features of the document
 class. For further information, the {\itshape \LaTeX\ User's Guide} is
@@ -276,8 +249,6 @@ journal article, a SIGCHI Extended Abstract, and more --- all by
 selecting the appropriate {\itshape template style} and {\itshape
   template parameters}.
 
-
-
 \section{Open AIR4Children}
 The ``\verb|acmart|'' document class includes the ``\verb|booktabs|''
 package --- \url{https://ctan.org/pkg/booktabs} --- for preparing
@@ -301,47 +272,19 @@ placement of the table here with the table in the printed output of
 this document.
 
 \begin{table}
-  \caption{Frequency of Special Characters}
+  \caption{Open source projects}
   \label{tab:freq}
   \begin{tabular}{ccl}
     \toprule
-    Non-English or Math&Frequency&Comments\\
+    Project name& Year of creation & Community\\
     \midrule
-    \O & 1 in 1,000& For Swedish names\\
-    $\pi$ & 1 in 5& Common in math\\
-    \$ & 4 in 5 & Used in business\\
+    JetBot AI Robot \cite{nanoJetBot:2019} & March 2019 & - \\
+    JPL Open Source Rover \cite{OSR:2018} & April 2018 & - \\
+    Otto DIY robots \cite{OttoDIY:2016} & 2016 & 50K used robots in >70 countries\\
     $\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
   \bottomrule
 \end{tabular}
 \end{table}
-
-To set a wider table, which takes up the whole width of the page's
-live area, use the environment \textbf{table*} to enclose the table's
-contents and the table caption.  As with a single-column table, this
-wide table will ``float'' to a location deemed more
-desirable. Immediately following this sentence is the point at which
-Table~\ref{tab:commands} is included in the input file; again, it is
-instructive to compare the placement of the table here with the table
-in the printed output of this document.
-
-\begin{table*}
-  \caption{Some Typical Commands}
-  \label{tab:commands}
-  \begin{tabular}{ccl}
-    \toprule
-    Command &A Number & Comments\\
-    \midrule
-    \texttt{{\char'134}author} & 100& Author \\
-    \texttt{{\char'134}table}& 300 & For tables\\
-    \texttt{{\char'134}table*}& 400& For wider tables\\
-    \bottomrule
-  \end{tabular}
-\end{table*}
-
-Always use midrule to separate table header rows from data rows, and
-use it only for this purpose. This enables assistive technologies to
-recognise table headers and support their users in navigating tables
-more easily.
 
 
 \subsection{Open hardware and software}
@@ -384,6 +327,11 @@ so important, please see
 
 \subsection{Open teaching materials}
 
+Serholt 2017 performed studies to quantify the social intereaction 
+between robots and children (i.e., gaze, verbal interaction, gestures, 
+and facial expressions). However robotics tutors are not yet to the point 
+to deal with complex child-robot interactions. 
+\cite{Serholt:2017}
 A ``teaser figure'' is an image, or set of images in one figure, that
 are placed after all author and affiliation information, and before
 the body of the article, spanning the page. If you wish to have such a
