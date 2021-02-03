@@ -99,7 +99,7 @@
 
 \author{Co-author B}
 \affiliation{%
-\institution{University of A}
+\institution{University of B}
 \streetaddress{Adress}
 \city{City}
 \country{Country}}
@@ -181,10 +181,9 @@
 %% information and the body of the document, and typically spans the
 %% page.
 \begin{teaserfigure}
-  \includegraphics[width=\textwidth]{sampleteaser}
-  \caption{Seattle Mariners at Spring Training, 2010.}
-  \Description{Enjoying the baseball game from the third-base
-  seats. Ichiro Suzuki preparing to bat.}
+  \includegraphics[width=\textwidth]{../figures/air4children/versions/drawing-v00.png}
+  \caption{(a)open-source software and hardware, (b) non-traditional curriculums, (c) free for anyone.}
+  \Description{Enjoying the baseball game from the third-base seats. Ichiro Suzuki preparing to bat.}
   \label{fig:teaser}
 \end{teaserfigure}
 
@@ -193,29 +192,17 @@
 %% information and builds the first part of the formatted document.
 \maketitle
 
-\section{Introduction}
-
-Current progress in the fields of Artificial Intelligence and Robotics (AIR)
-is accelerating specially in countries where innonavtion and technologies are happenigs. 
-However, even thought these fields are growing work is in progress in separated streams
-for AI and Robotics, there is little work that put together both fields and with
-little to none focus on children. With this in mind this work is proposing 
-the term AIR4children in a way to offer pedagogical, open-source software and hardware
-tools to balance the current posiblities for children to enjoy and to dicover these 
-fields from a children-like perspective.
-As pointed in the guidance of AI for children by UNICEF \cite{UNICEF2020},
-there are many challenges to make inclusive AIR, in this case, 
-from any or idealialy under-represented communities and provie fairness and non-discrimination 
-in child-robot interaction as well as design curriculums for children of different 
-socieconomical backgrounds, developmental stages or learning abilitities. 
-The aim of the AIR4children is to prepare children for present 
-to contribute to resposnbile AIR for the present and the future.
-
-Anoother aspects as the socialbitly of robots are well explamplied with 
-Jibo [REF], Cosmos [REF] and more recently Shelly, a tortoise-like robot, to tacke 
-multiple interaction of one-to-many as well the resctrition of children
-abusive behaviours towards robots \cite{hu2018}. 
-
+\section{Introduction} 
+The scientific and techonlogical progress in the fields of Artificial Intelligence and Robotics (AIR) is rapdily moving forward over the past decade. 
+Advances in AIR are mainly in countries such as United States, China and Europe where support of such fields is part of their agenda \cite{Savage2020}. 
+As the fielfs of AIR are advancing at a great pace, there are opportunties to for more child-centered AIR and with various challenges for children in places where resources are scarse. 
+Recently, a drafted guidance of AI for children by UNICEF \cite{UNICEF2020} pointed out various challenges of making such filed avaiable to under-represented communities with the aim of providing fairness and non-discrimination.
+With this in mind this work is proposing Artificial Intelligence and Robotics for Children (AIR4children) as a way to create and to design tools based on open-sourced projects.
+Similarly, AIR4children is aiming to design curriculums with an non-traditional education approach for children of different socieconomical backgrounds, developmental stages or learning abilitities. 
+%Anoother aspects as the socialbitly of robots are well explamplied with 
+%Jibo [REF], Cosmos [REF] and more recently Shelly, a tortoise-like robot, to tacke 
+%multiple interaction of one-to-many as well the resctrition of children
+%abusive behaviours towards robots \cite{hu2018}. 
 
 \section{Open Source AI and Robotics}
 The spirit of open source software since 19XX with the contributions 
@@ -240,6 +227,19 @@ two-page SIGGRAPH Emerging Technologies abstract, a ``camera-ready''
 journal article, a SIGCHI Extended Abstract, and more --- all by
 selecting the appropriate {\itshape template style} and {\itshape
   template parameters}.
+
+  Deep Learning (DL) is a branch of machine learning in Artificial Intelligence
+  which essentially takes advantage of a huge datasets to train neural networks.
+  The great impact of DL in recent years is also because of improvements in 
+  hardware development and mainly because of open source tools and libraries \cite{matelabs2017}.
+  Additionally to that, there is a huge range of applications in areas such as robotics,
+  transportation, medicine and last but not least in education.
+  That said, we propose to use a raspberry pi, a $\pounds$30 board with
+  GNU/Linux OS, connected with a mini arduino board, $\pounds$2 board,  servomotors 
+  and pi camera in order to create a simple low-cost educational robot 
+  where children can learn the basics concepts of robotics and deep learning \cite{durr2015}.
+  
+    
 
 \subsection{Open Source Robotics}
 [Section to describe open-source robotics projects and related them to air4children.]
@@ -330,6 +330,16 @@ structured list representing a graph.  For additional information
 regarding how best to write figure descriptions and why doing this is
 so important, please see
 \url{https://www.acm.org/publications/taps/describing-figures/}.
+
+Our primary aim for Libre Robotics is to build low-cost education robots 
+which will be helpful to teach many didactic activities where children 
+can interact with the robot and learn concepts of robotics, linear algebra, 
+machine learning, and deep learning.
+One example is the implementation of a low-cost robot with 
+convolutional neural networks that recognise six basic face emotions: 
+happy, sad, surprise, fear, anger and neutral \cite{ho2016, Ruiz-Garcia2016}. 
+
+%
 
 \subsection{Open teaching materials}
 [Section to describe open teaching materials, perhaps using non-traditional education systems.]
