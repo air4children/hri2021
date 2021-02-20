@@ -14,7 +14,7 @@ jobs:
     - name: Set up Git repository
       uses: actions/checkout@v1
 
-    - name: Compile Thesis
+    - name: Compile Article
       uses: xu-cheng/latex-action@v2
       with:
         root_file: main.tex
