@@ -30,5 +30,5 @@ mostlyclean:
 
 clean: mostlyclean
 	$(LATEXMK) -silent -c
-	$(RM) main.pdf main.bbl
+	$(RM) main.pdf main.bbl main.run.xml comment.cut
 
