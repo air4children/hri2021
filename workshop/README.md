@@ -14,11 +14,11 @@ Currently, national and global organizations have raised concerns regarding the 
 This workshop will bring together researchers in the intersection of Human-Robot Interaction, Child Development, Ethics and Robot Design and other relevant fields . We aim to provide a platform to discuss emerging opportunities and risks in Child-Robot Interaction through the lens of the Human Fundamental Rights.
 
 ## Important dates
-General deadline Paper Submission: February 15th, 2021
-General Acceptance Notification: February 23th, 2021
-Camera Ready Paper: March 1st, 2021
+General deadline Paper Submission: February 15th, 2021  
+General Acceptance Notification: February 23th, 2021   
+Camera Ready Paper: March 1st, 2021   
 
-Topics include but are non limited to the following:
+## Topics include but are non limited to the following:
 * Trustworthy Robots for Children
 * Child-robot interaction and inclusion of children in all stages of design and development
 * Design principles for transparency in robot actions
