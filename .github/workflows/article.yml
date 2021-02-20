@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-      - 01-ci-article
+      - 01-ci
 
 jobs:
   build:
