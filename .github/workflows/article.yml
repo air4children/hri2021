@@ -2,8 +2,9 @@ name: Compiling-TeX-Article
 on:
   push:
     branches:
-      - main
+      - no-main
       - 01-ci
+      - adds-branch-name
 
 jobs:
   build:
