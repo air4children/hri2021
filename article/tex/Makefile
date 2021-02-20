@@ -1,34 +1,34 @@
 fileinfo := LaTeX Makefile
 author := Miguel Xochicale
+## Usage
+# run "make" in the terminal to build local pdf
+# run "make view" to see pdf file
+# run "make clean" when you finished your local changes
 
-## make TEXFILE=base (no tex file extension)
-## make clean TEXFILE=filename (no tex file extension)
+## References
+# https://gist.github.com/dogukancagatay/2eb82b0233829067aca6
+# https://www.latex4technics.com/?note=5fu0y6
+# https://www.drewsilcock.co.uk/using-make-and-latexmk
 
-ALLTEX = $(wildcard *.tex)
-TEXFILE = $(basename $(ALLTEX))
+## Tools
+LATEXMK = latexmk
+RM = rm -f
+EVINCE = evince
 
-# TEXFILE = main
-LATEX = pdflatex -shell-escape -interaction=nonstopmode -file-line-error
-BIB = bibtex
+##Project name
+PROJNAME=main
 
-all:
-	$(LATEX) $(TEXFILE).tex
-	$(LATEX) $(TEXFILE).tex
-	$(BIB) $(TEXFILE)
-	$(BIB) $(TEXFILE)
-	$(LATEX) $(TEXFILE).tex
-	$(LATEX) $(TEXFILE).tex
-	@echo "================================================"
-	@echo "All done! pdf file has been created. "
-	@echo "================================================"
-	evince $(TEXFILE).pdf &
+## Rules
+$(PROJNAME).pdf: $(PROJNAME).tex
+	$(LATEXMK) -pdf -pdflatex="pdflatex -shell-escape -synctex=1 -file-line-error %O %S" $<
 
-clean:
-	rm -f *.aux *.blg *.bbl *.log *.out *.fdb_latexmk *.fls comment.cut *.synctex.gz $(TEXFILE).pdf 
-	rm -f *.backup
-	@echo "================================================"
-	@echo "All cleaned!  "
-	@echo "================================================"
+view:
+	$(EVINCE) $(PROJNAME).pdf
 
-	
-	
+mostlyclean:
+	$(LATEXMK) -silent -C
+
+clean: mostlyclean
+	$(LATEXMK) -silent -c
+	$(RM) main.pdf main.bbl
+
