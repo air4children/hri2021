@@ -4,6 +4,7 @@ on:
     branches:
       - no-main
       - 01-ci
+      - 03-distillation
       - adds-branch-name
 
 jobs:
