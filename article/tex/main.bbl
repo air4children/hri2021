@@ -1,0 +1,290 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{18}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Bers}{Bers}{2008}]%
+        {bers2008}
+\bibfield{author}{\bibinfo{person}{M.U. Bers}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Blocks to Robots: Learning with Technology
+  in the Early Childhood Classroom}}.
+\newblock \bibinfo{publisher}{Teachers College Press}.
+\newblock
+\showISBNx{9780807748473}
+\showLCCN{2007028960}
+\urldef\tempurl%
+\url{https://books.google.co.uk/books?id=KkUmAQAAIAAJ}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bers and Horn}{Bers and Horn}{2010}]%
+        {bers-horn2010}
+\bibfield{author}{\bibinfo{person}{{Marina Umaschi} Bers} {and}
+  \bibinfo{person}{{Michael S.} Horn}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Tangible Programming in Early Childhood:
+  Revisiting Developmental Assumptions Through New Technologies}}.
+\newblock \bibinfo{publisher}{Information Age Publishing},
+  \bibinfo{pages}{49--70}.
+\newblock
+\showISBNx{978-1617350092}
+
+
+\bibitem[\protect\citeauthoryear{Bers}{Bers}{2012}]%
+        {bers2012}
+\bibfield{author}{\bibinfo{person}{Marina~Umaschi Bers}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Designing Digital Experiences for Positive
+  Youth Development: From Playpen to Playground} (\bibinfo{edition}{1st} ed.)}.
+\newblock \bibinfo{publisher}{Oxford University Press},
+  \bibinfo{address}{Boston, MA, USA}.
+\newblock
+\showISBNx{9780199757022}
+
+
+\bibitem[\protect\citeauthoryear{Brasseur}{Brasseur}{2018}]%
+        {brasseur2018}
+\bibfield{author}{\bibinfo{person}{VM Brasseur}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Forge Your Future with Open Source: Build
+  Your Skills. Build Your Network. Build the Future of Technology.}}
+\newblock \bibinfo{publisher}{Pragmatic Bookshelf}.
+\newblock
+\showISBNx{9781680506396}
+\urldef\tempurl%
+\url{https://books.google.co.uk/books?id=Tm15DwAAQBAJ}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Elkin, Sullivan, and Bers}{Elkin
+  et~al\mbox{.}}{2014}]%
+        {elkin2014}
+\bibfield{author}{\bibinfo{person}{Mollie Elkin}, \bibinfo{person}{Amanda
+  Sullivan}, {and} \bibinfo{person}{Marina Bers}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Implementing a Robotics Curriculum in an Early
+  Childhood Montessori Classroom}.
+\newblock \bibinfo{journal}{\emph{Journal of Information Technology Education:
+  Innovations in Practice}}  \bibinfo{volume}{13} (\bibinfo{date}{01}
+  \bibinfo{year}{2014}), \bibinfo{pages}{153--169}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.28945/2094}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gaudeul}{Gaudeul}{2007}]%
+        {gaudeul2007}
+\bibfield{author}{\bibinfo{person}{Alexia Gaudeul}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Do Open Source Developers Respond to Competition?
+  The LaTeX Case Study}.
+\newblock \bibinfo{journal}{\emph{Review of Network Economics}}
+  \bibinfo{volume}{6} (\bibinfo{date}{06} \bibinfo{year}{2007}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.2202/1446-9022.1119}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kazakoff and Bers}{Kazakoff and Bers}{2012}]%
+        {kazakoff-bers2012}
+\bibfield{author}{\bibinfo{person}{Elizabeth~R. Kazakoff} {and}
+  \bibinfo{person}{M. Bers}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Programming in a Robotics Context in the
+  Kindergarten Classroom: The Impact on Sequencing Skills}.
+\newblock \bibinfo{journal}{\emph{Journal of Educational Multimedia and
+  Hypermedia}}  \bibinfo{volume}{21} (\bibinfo{year}{2012}),
+  \bibinfo{pages}{371--391}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Laboratory}{Laboratory}{2018}]%
+        {OSR:2018}
+\bibfield{author}{\bibinfo{person}{NASA Jet~Propulsion Laboratory}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Open Source Rover}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/nasa-jpl/open-source-rover}
+\showURL{%
+Retrieved Jan 31, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{MateLabs}{MateLabs}{2017}]%
+        {matelabs2017}
+\bibfield{author}{\bibinfo{person}{MateLabs}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{Why do we need the Democratization of Machine
+  Learning?}
+\newblock
+  \bibinfo{howpublished}{\url{https://medium.com/startup-grind/why-do-we-need-the-democratization-of-machine-learning-80104e43c76f}}.
+\newblock
+\newblock
+\shownote{April 27, 2017 (accessed December 08, 2017).}
+
+
+\bibitem[\protect\citeauthoryear{Montessori}{Montessori}{2013}]%
+        {montessori2013absorbent}
+\bibfield{author}{\bibinfo{person}{M. Montessori}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Absorbent Mind}}.
+\newblock \bibinfo{publisher}{Start Publishing LLC}.
+\newblock
+\showISBNx{9781625588685}
+\urldef\tempurl%
+\url{https://books.google.co.uk/books?id=4OrsAgAAQBAJ}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Neil}{Neil}{2020}]%
+        {Savage2020}
+\bibfield{author}{\bibinfo{person}{Savage Neil}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The race to the top among the world’s
+  leaders in artificial intelligence}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.nature.com/articles/d41586-020-03409-8}
+\showURL{%
+Retrieved Feb 02, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{NVIDIA}{NVIDIA}{2019}]%
+        {nanoJetBot:2019}
+\bibfield{author}{\bibinfo{person}{NVIDIA}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Nano JetBot}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/NVIDIA-AI-IOT/jetbot}
+\showURL{%
+Retrieved Jan 31, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Parra-Palacio, Svarcova, and
+  Clime}{Parra-Palacio et~al\mbox{.}}{2016}]%
+        {OttoDIY:2016}
+\bibfield{author}{\bibinfo{person}{Camilo Parra-Palacio},
+  \bibinfo{person}{Tereza Svarcova}, {and} \bibinfo{person}{Ethan Clime}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Otto DIY robots}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.ottodiy.com/}
+\showURL{%
+Retrieved Jan 31, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Pearce}{Pearce}{2013}]%
+        {pearce2013}
+\bibfield{author}{\bibinfo{person}{J.M. Pearce}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Open-Source Lab: How to Build Your Own
+  Hardware and Reduce Research Costs}}.
+\newblock \bibinfo{publisher}{Elsevier Science}.
+\newblock
+\showISBNx{9780124104860}
+\showLCCN{2013035658}
+\urldef\tempurl%
+\url{https://books.google.co.uk/books?id=0bOKAAAAQBAJ}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Resnick, Martin, Berg, Borovoy, Colella,
+  Kramer, and Silverman}{Resnick et~al\mbox{.}}{1998}]%
+        {resnick1998}
+\bibfield{author}{\bibinfo{person}{Mitchel Resnick}, \bibinfo{person}{Fred
+  Martin}, \bibinfo{person}{Robert Berg}, \bibinfo{person}{Rick Borovoy},
+  \bibinfo{person}{Vanessa Colella}, \bibinfo{person}{Kwin Kramer}, {and}
+  \bibinfo{person}{Brian Silverman}.} \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{Digital Manipulatives: New Toys to Think With}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI Conference on Human
+  Factors in Computing Systems}} (Los Angeles, California, USA)
+  \emph{(\bibinfo{series}{CHI '98})}. \bibinfo{publisher}{ACM
+  Press/Addison-Wesley Publishing Co.}, \bibinfo{address}{USA},
+  \bibinfo{pages}{281–287}.
+\newblock
+\showISBNx{0201309874}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/274644.274684}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Stallman}{Stallman}{1985}]%
+        {stallman1985}
+\bibfield{author}{\bibinfo{person}{Richard Stallman}.}
+  \bibinfo{year}{1985}\natexlab{}.
+\newblock \showarticletitle{The {GNU} Manifesto}.
+\newblock  \bibinfo{volume}{10}, \bibinfo{number}{3} (\bibinfo{date}{March}
+  \bibinfo{year}{1985}), \bibinfo{pages}{30--}.
+\newblock
+\showCODEN{DDJOEB}
+\showISSN{1044-789X}
+
+
+\bibitem[\protect\citeauthoryear{T.~Mohammad, Mohammad, Mohammad, and Tarik
+  Al~Ali}{T.~Mohammad et~al\mbox{.}}{2017}]%
+        {tarik2017}
+\bibfield{author}{\bibinfo{person}{Farah T.~Mohammad}, \bibinfo{person}{Farah
+  Mohammad}, \bibinfo{person}{Mohammad Mohammad}, {and} \bibinfo{person}{Zahraa
+  Tarik Al~Ali}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{A Hybrid Spiral Project Based Learning Model for
+  Microprocessor Course Teaching}.
+\newblock  (\bibinfo{date}{08} \bibinfo{year}{2017}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.24017/science.2017.3.36}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{(UNICEF)}{(UNICEF)}{2020}]%
+        {UNICEF2020}
+\bibfield{author}{\bibinfo{person}{United Nations Children's~Fund (UNICEF)}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Policy guidance on AI for children, DRAFT
+  1.0}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.unicef.org/globalinsight/reports/policy-guidance-ai-children}
+\showURL{%
+Retrieved January 24, 2021 from \tempurl}
+
+
+\end{thebibliography}
