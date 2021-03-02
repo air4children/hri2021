@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{The progress of AI and Robotics (AIR)}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Open source software and hardware in AIR}{5}{0}{1}
+\beamer@sectionintoc {2}{air4children}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{AIR for Children}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Teaching Materials}{8}{0}{2}
+\beamer@sectionintoc {3}{Conclusions and Future work}{9}{0}{3}
