@@ -30,17 +30,6 @@
   \providecommand\BibTeX{{%
     \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
 
-%\usepackage[%
-%    style=ieee,
-%    dashed=false,
-%    doi=false,
-%    isbn=false,
-%    giveninits=true,
-%    maxnames=10,
-%]{biblatex}
-%\usepackage{biblatex}
-%\addbibresource{../references/references-simple.bib}
-
 %% Rights management information.  This information is sent to you
 %% when you complete the rights form.  These commands have SAMPLE
 %% values in them; it is your responsibility as an author to replace
@@ -99,7 +88,7 @@
 %\orcid{1234-5678-9012}
 %\author{G.K.M. Tobin}
 
-\author{air4children}
+\author{AIR4Children}
 \affiliation{%
   %\institution{University of A}
   %\streetaddress{Adress}
@@ -122,19 +111,18 @@
 %% other information printed in the page headers. This command allows
 %% the author to define a more concise list
 %% of authors' names for this purpose.
-\renewcommand{\shortauthors}{air4children}
+\renewcommand{\shortauthors}{AIR4Children}
 
 %%
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
-In this work, we proposed AIR4Children, artificial intelligence for children, as a way to (a) tackle aspects for inclusion, accessibility, transparency, equity, fairness and participation and (b) to create affordable child-centred materials in AI and robotics.
-We present current challenges and opportunities for a child-centred approaches for AI and robotics (AIR). 
-Similarly, we touch on open-sourced software and hardware technologies to make a more inclusive, transparent and fair participation of children in areas of AIR. 
+We introduce AIR4Children, Artificial Intelligence for Children, as a way to (a) tackle aspects for inclusion, accessibility, transparency, equity, fairness and participation and (b) to create affordable child-centred materials in AI and Robotics (AIR).
+We present current challenges and opportunities for a child-centred approaches for AIR. 
+Similarly, we touch on open-sourced software and hardware technologies to make a more inclusive, affordable and fair participation of children in areas of AIR. 
 Then, we describe the avenues that AIR4Children can take with the development of open-sourced software and hardware.
-Similarly, we propose to follow the philosophy of Montessori education 
-to help children to not only develop mathematical thinking but also to internalise new concepts and learning skills through activities of movement and repetition with open source robots.
-Finally, we add conclusions and mainly we pose the future work to go of AIR4children to putting in practice what is proposed here and measure the impact on AI and robotics of children. 
+Similarly, we propose to follow the philosophy of Montessori education to help children to not only develop computational thinking but also to internalise new concepts and learning skills through activities of movement and repetition with open source robots.
+Finally, we conclude with few anecdotal experiences of our work and mainly we pose the future work of putting in practice what is proposed here to measure the impact on AIR in children of different socio-economical background, developmental stages and learning abilities. 
 \end{abstract}
 
 %%
@@ -196,33 +184,46 @@ Finally, we add conclusions and mainly we pose the future work to go of AIR4chil
 
 \section{Introduction} 
 The scientific and technological progress in the fields of Artificial Intelligence and Robotics (AIR) has been rapidly moving forward over the past decade with special focus in countries such as United States, China and Europe where support of such fields is part of their agenda \cite{Savage2020}. 
-However, such progress also brings other challenges such as the little to none focus on a centred AIR for children as well as the challenge of making the fields of AIR available to under-represented communities.
-With regard to child-centered AIR, there is few materials and resources with poor accessble and not appropriately affortable.  
-In terms of affortability, such technologies are unreachable to young audiences from under-represented communities as recently pointed out by United Nations Children's Fund (UNICEF) \cite{UNICEF2020}.
-Therefore, this work is proposing Artificial Intelligence and Robotics for Children (AIR4Children) as a way to make AIR available to young audiences with perhaps limited resources and to creation and design tools based on open-sourced projects to address fairness and accessibility. 
-Additionally, AIR4Children is aiming to design curriculums with an non-traditional education approach for children of different socio economical backgrounds, developmental stages or learning abilities. 
+Artificial Intelligence (AI), for instance, is changing and helping various aspects of our daily lives, from entertainment to complex medicine discovery tasks. 
+Then the democratization of current AI technologies allows people without in-depth skills in maths, statistics, and programming to create their own AI solutions. Examples of these new open-source platforms with a high-level programming approach are PyTorch, TensorFlow, Keras, and Scikit-learn. 
+However, most of these technologies use specific syntax and grammar and work with particular programming languages which makes the learning curve a complex task for children. 
+Therefore, there is research to be done in order to design and create open-source platforms that bring children closer to AI.
+Something similar happen in the case of Robotics where software-based AI solutions can deploy solutions on real robots (such as JIBO, NAO, others), however these robots are generally inaccessible for children worldwide, particularly for those of under-represented communities.
+Such challenges of unreachable technologies in AI, and extrapolated to Robotics, to young audiences 
+also include their affordability and open accessibility \cite{UNICEF2020}.
 
-For this work, as a way to minimise cost for hardware and software, section 2 review open source project as the basis of the material for AIR4Children.
-In section 3, it is presented three stages of AIR4Children including open source materials and teaching materials based on Montessori education. 
-We then conclude this work with current status of AIR for children, open source materials for hardware, software and teaching and add few words on the future work as a way to mitigate few of the challenges cited above. 
+Therefore, this work coins the term of Artificial Intelligence and Robotics for Children (AIR4Children) as a way to make AI and Robotics available to young audiences from under-represented communities as well as to create and to design tools based on open-sourced projects.
+Additionally, AIR4Children aims to create, to design and to distill curriculums based on non-traditional education (i.e. Montessori) for children of different socio-economical background, developmental stages and learning abilities. 
+
+For this work, section 2 reviews open source projects as the basis of the material for AIR4Children.
+Section 3 introduces AIR4Children as a open source project with open teaching materials based on Montessori education. 
+We then conclude with current status of AIR for children, the creation of open source materials for hardware, software and teaching resources and mentions the future work for pilots and distillation of teaching materials.
 
 \section{Open Source Software and Hardware for AI and Robotics}
-In 1978 Donald Knuth designed \TeX, typesetting system, which is a role model for open source projects where organisational phases of its development and the relative and simple accessibility to users were crucial to its success \cite{gaudeul2007}.
+Open source resources "refers to something people can modify and share because its design is publicly accessible" \cite{opensource2021}.
+Such open source community was initiated in 1978 by Donald Knuth who designed \TeX, typesetting system, which is a role model for open source projects where organisational phases of its development and the relative and simple accessibility to users were crucial to its success \cite{gaudeul2007}.
 Then, in 1983 Richard Stallman, with the frustration to not freely inspect, modify or share software, founded the GNU project to then create a GNU manifesto \cite{stallman1985}.
-Such projects were the corner stone of what is known as the Open Software Initiative, founded by Bruce Perens and Eric S. Raymond in 1998, stating that projects must be free redistributable, code must be available and distributable, modification must be allowed, etc \cite{brasseur2018}.
-Following a similar spirit that software can be used, studied, copied, modified, and redistributed without restriction, projects of open source hardware started to emerge in mid 2000s emerged (e.g., OpenCores, RepRap (3D printing), Arduino, Adafruit and SparkFun) \cite{pearce2013}.
+Both \TeX and GNU project were the corner stone of what is known today as the Open Software Initiative, founded by Bruce Perens and Eric S. Raymond in 1998, stating that projects must be free re distributable, code must be available and distributable, modification must be allowed, etc \cite{brasseur2018}.
+Following a similar spirit that software can be used, studied, copied, modified, and redistributed without restriction, projects of open source hardware started to emerge in mid 2000s (e.g., OpenCores, RepRap (3D printing), Arduino, Adafruit and SparkFun) \cite{pearce2013}.
 
-Then, in the last decade, another wave of scientific innovation has been emerging in the field of AI due to open source software frameworks (e.g. pytorch, tensorflow, etc.) and places to distribute these (e.g. GitHub, gitlab, bitbucket) \cite{matelabs2017}.
-However, little has been done for child-centred AI and Robotics. 
-For instance, Otto DIY is an educational open source robot founded in 2016 by Camilo Parra, where the community of OTTO has more than 20,000 users from 20 countries and more than 100 re-designs of the robot \cite{OttoDIY:2016}.
+Then, in the last decade, another wave of scientific innovation for open source resources started with open source software frameworks (e.g. pytorch, tensorflow, etc.) along with places to distribute these (e.g. GitHub, gitlab, bitbucket, etc) \cite{matelabs2017}.
+However, our understanding is that little has been done for child-centred AI and Robotics. 
+For instance, Otto DIY is an educational open source robot founded in 2016 by Camilo Parra, where the community of Otto has more than 20,000 users from 20 countries and more than 100 re-designs of the robot \cite{OttoDIY:2016}.
 Another example is the JPL Open Source Rover, created by engineers at NASA and initially released in April 2018, which it is designed with detailed instructions for constructions for mainly high school students, and open source technical specifications, 3D models and assembly instructions \cite{OSR:2018}.
-Recently, engineers at NVIDIA in 2019, released nano JetBot as a affordable, education and fun platform  "to give the hands on experience needed to create entirely new AI projects" \cite{nanoJetBot:2019}. 
+Recently, engineers at NVIDIA in 2019, released nano JetBot platform  "to give the hands on experience needed to create entirely new AI projects" \cite{nanoJetBot:2019}. 
 
-That said, there is opportunity to create educational resources to teach AI and robotics to children aiming to be, as pointed by JetBot, affordable, educational and fun \cite{nanoJetBot:2019}, where our prototype, explained in next section, is starting to tackle few of them. 
-Table~\ref{tab:opensourceprojects} summarises open source projects with year of establishment and cost.
+On other hand, there is an inherent engagement in children with robots as a way to use robots to enact education solutions \cite{druga2019}. 
+They take advantage of real-time deployments from computers/mobile into real robots based on the Do-It-Yourself approach. 
+Thus, the platforms encourage programming skills in children. 
+Shybo is a robot that combines open-source hardware and software \cite{Lupetti2017}.
+Shybo can perceive sounds and react through non-verbal behaviors (movements and lights). 
+The creators claim that Shybo can also be used in educational contexts to support playful learning experiences. 
+Sparky is an Arduino-based mobile robot. Creators provide schematics, 3D model files, and source code underneath are all open source \cite{sparky2012}. 
+Using block or code programming, Sparky introduces programming from elementary-age to adults.
+
+That being said, there is opportunity to create educational resources to teach AI and Robotics to children aiming to be, as pointed by the project JetBot, "affordable, educational and fun" \cite{nanoJetBot:2019} as well as to have child-centred programming languages.
 
 %BLURS
-
 %One example is the implementation of a low-cost robot with convolutional neural networks that recognise six basic face emotions: 
 %happy, sad, surprise, fear, anger and neutral \cite{ho2016, ruiz-garcia2016}. 
 
@@ -240,7 +241,7 @@ Table~\ref{tab:opensourceprojects} summarises open source projects with year of 
 %can interact with the robot and learn concepts of robotics, linear algebra, 
 %machine learning, and deep learning.
 
-%Anoother aspects as the socialbitly of robots are well explamplied with 
+%Another aspects as the sociality of robots are well explamplied with 
 %Jibo [REF], Cosmos [REF] and more recently Shelly, a tortoise-like robot, to tacke 
 %multiple interaction of one-to-many as well the resctrition of children
 %abusive behaviours towards robots \cite{hu2018}. 
@@ -270,12 +271,16 @@ Adopting the philosophy of open source, AIR4Children is aiming to tackle the nee
 For instance, as a way to mitigate the hight prices of educational robots, our initial prototypes of AIR4Children are in the range of 100.00 EUROS. 
 Such prototype, based on raspberry pi, arduino uno board and few actuators, is able to recognise voice commands in English language to move the robot in different directions (Fig \ref{fig:teaser}(a)).
 Similarly, we have identified Otto robot, a DIY educational robot, which is based on arduino, servomotors and a scratch as interface to program the robot with various routines for sensors and actuators with a price of EURO 100.00 (Fig \ref{fig:tm} (b)). 
+In addition to the release of JPL Open Source Rover by engineers at NASA in April 2018 with a price of 2500 USD \cite{OSR:2018} or
+nano JetBot platform developed by engineers at NVIDIA in March 2019 with a price of 212 EUROS \cite{nanoJetBot:2019}. 
+See Table~\ref{tab:opensourceprojects} that summarises open source projects with year of establishment and cost.
+
 
 \section{AIR4Children as a open source project}
 Having known the benefits of not only the lower price of open source projects but the increase of customisation and control of these, AIR4Children is therefore intending to adopt a similar journey along the lines of open source principles with the aim of making affordable, customisable and accessible tools for a child-centred AIR.
 
-That said, in a first phase, AIR4Children project will be piloting teaching materials with our open source robots and otto, a well known open source educational robot \cite{OttoDIY:2016}.  
-Then in a second phase, and with feedback of the pilots, teaching materials as well as the customisation of open source robots will be improved to polish a more child-centred curriculum of AIR. 
+In a first phase, AIR4Children project will be piloting teaching materials with our open source robots and Otto, a well known open source educational robot \cite{OttoDIY:2016}.  
+Then in a second phase, and with feedback of the pilots, teaching materials with child-centre programing languages as well as the customisation of open source robots will be improved to polish a more child-centred curriculum of AIR. 
 On a third phase, children and adolescents in a range of age between 6 to 14 years old will be invited to enroll on workshops to be free of charge to all the participants. 
 In this regard, this initial phases of the project will help us to provide evidence of the impact of AIR in a children of different backgrounds and evaluate children's perception on the fields of AI and Robotics.  
 
@@ -304,16 +309,15 @@ In this regard, this initial phases of the project will help us to provide evide
 % “I want to play AIR (Robotics)”, “dear Santa Claus my wish is that you bring me a Robotic set”, “friend let's play to build a robot”.   
 
 
-
-
 \subsection{Open teaching materials}
-Considering teaching materials of AI and Robotics to be child-like oriented, AIR4Children is then adopting Montessori's education with philosophy orbited around the quote “the hand is the instrument of the mind.” \cite{montessori2013absorbent}.
-In that way, materials for AIR4Children are based on Montessori education with the aim to help children to internalise new concepts and to develop concentration of their learning skills through activities of movement and repetition.
+Considering teaching materials of AI and Robotics to be child-like oriented, AIR4Children is then adopting Montessori's education with the philosophy orbited around the quote “the hand is the instrument of the mind.” \cite{montessori2013absorbent}.
+In that way, materials for AIR4Children are based on Montessori education to help children to internalise new concepts and to develop concentration of their learning skills through activities of movement and repetition.
 %For instance, the best way a child can concentrate is by fixing his attention on some task he is performing with his hands. 
-One potential way to develop such skills is by designing activities in AI and robotics that are appropriately introduced in development stages \cite{bers2008, bers-horn2010, kazakoff-bers2012} as well as the development of grasping and understanding mathematical concepts (e.g. numbers, size, and shapes) \cite{bers2012, resnick1998}.
-Similarly, as Elkin et al. (2014) \cite{elkin2014} explained, air4children can provide a way to engage children in problem-solving activities based on Montessori education as well as design activities that allow children to participate in creative explorations, develop fine motor skills, hand-eye coordination, engage in collaborative and teamwork activities.
+One potential way to develop such skills is by designing activities in AI and robotics that are appropriately introduced in development stages \cite{bers2008, bers-horn2010, kazakoff-bers2012} as well as the development of grasping and understanding mathematical concepts (e.g. numbers, size, and shapes) and computational thinking (e.g. variables, loops, counters, etc) \cite{bers2012, resnick1998}.
+Similarly, as Elkin et al. (2014) \cite{elkin2014} explained, AIR4Children can provide a way to engage children in problem-solving activities to allow children to participate in creative explorations, develop fine motor skills, hand-eye coordination, engage in collaborative and teamwork activities.
 
-That said, figure \ref{fig:tm}(a) illustrates the spiral learning technique adopted for AIR4Children to reinforce the above Montessori skills \cite{tarik2017}.
+That said, figure \ref{fig:tm}(a) illustrates the spiral learning technique adopted for AIR4Children to reinforce the above Montessori skills \cite{tarik2017}, fig \ref{fig:tm}(b) shows material of otto robot to develop creative exploration and engage in collaborative activitities and fig \ref{fig:tm}(c) a block diagram as a child-centre programing language. 
+
 \begin{figure}[h]
   \centering
   \includegraphics[width=\linewidth]{../figures/teaching-materials/versions/drawing-v00.png}
@@ -339,12 +343,12 @@ That said, figure \ref{fig:tm}(a) illustrates the spiral learning technique adop
 %\cite{Serholt:2017}
 
 \section{Conclusions and future work}
-We introduced the term air4project as a project with the aim to tackle aspects for inclusion, accessibility, transparency, equity, fairness and participation of children in the fields of AI and Robotics as well as to create teaching materials with a more child-centre approach for AI and Robotics.
+In this work, we coin the term AIR4Children as a project that aims to tackle aspects of inclusion, accessibility, transparency, equity, fairness and participation of children in the fields of AI and Robotics as well as to create teaching materials with a more child-centre approach for AI and Robotics.
 We also touched on the open source projects in AI and Robotics as a corner stone for AIR4Children with the aim of minimise cost of the materials and made customised educational materials.  
 Similarly, it has been presented the initial phases of AIR4Children that include piloting, implementing and refining workshops for children in the age range between 6 to 14 to be implemented in Xicohtzinco, a town from Tlaxcala, M\'exico.
-We also touched on the creation of curriculums with Montessori education, a non-traditional educational approach to help young audiences to develop skills to think creatively with curiosity and open-minded as well as to develop a sense of wonder and joy in learning.
+We also touched on the creation of curriculums with Montessori education, a non-traditional educational approach to help young audiences to develop skills to think creatively, with curiosity and open-minded as well as to develop a sense of wonder and joy for learning.
 
-As a future work, air4children aims to run workshops by the end of 2021 to put in practice educational material of child-centre AI and robotics and to evaluate the impact on these fields to children and to the community. 
+As a future work, AIR4Children aims to run workshops by the end of 2021 to put in practice educational material of child-centre AI and Robotics and to evaluate the impact on these fields to children and to the community. 
 
 %% BLURS 
 %Since children are going to learn and enter to this vast world of technology is in our responsibility to create open safe platforms and strategies where every children can enter and learn about AI, regardless of their personal situation, to avoid creating an “AI divide”. 
@@ -357,19 +361,21 @@ As a future work, air4children aims to run workshops by the end of 2021 to put i
 %% identification of the section in the article metadata, and the
 %% consistent spelling of the heading.
 \begin{acks}
-To Rocio Montenegro for her input as Montessori teacher. To Elva Corona for her contributions on giving vision to the goals of the project. 
-To Marta Perez, Donato Badillo Jr and Antonio Badillo for their interest and initial testers of the project. 
+To Rocio Montenegro for her contributions and input as Montessori teacher. 
+To Elva Corona for her contributions on giving vision to the goals of the project. 
+To Marta P\'erez, Donato Badillo-Per\'ez and Antonio Badillo-Per\'e\ for their interest as initial testers of the project. 
+To Leticia Vazques for her inputs as a teacher of teenagers. 
 To Angel Mandujano for his help on the preparation of the software frameworks for the project. 
-To all of you of whom has limited time and had not able you to contributed as you wished in the project.
-Thanks everyone to believe in this project, good things are ahead of us. Miguel Xochicale.
+To Dago Cruz for his contributions on open source AI and Robotics.
+To all of you of whom with the limited time were able to contribute to this work to make a bit more solid.
+Thanks to Miguel Xochicale to orchestrate AIR4Children.
 \end{acks}
 
 %%
 %% The next two lines define the bibliography style to be used, and
 %% the bibliography file.
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{../references/references-simple}
-%\printbibliography
+\bibliography{../references/references}
 
 
 \end{document}

@@ -1,4 +1,6 @@
 
+## ci build 
+See [ci workflow](https://github.com/free-cortex/framework/tree/main/workflow) for detailed instructions.
 
 ## versions
 
