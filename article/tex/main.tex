@@ -201,22 +201,30 @@ Section 3 introduces AIR4Children as a open source project with open teaching ma
 We then conclude with current status of AIR for children, the creation of open source materials for hardware, software and teaching resources and mentions the future work for pilots and distillation of teaching materials.
 
 \section{Open Source Software and Hardware for AI and Robotics}
-In 1978 Donald Knuth designed \TeX, typesetting system, which is a role model for open source projects where organisational phases of its development and the relative and simple accessibility to users were crucial to its success \cite{gaudeul2007}.
+Open source resources "refers to something people can modify and share because its design is publicly accessible" \cite{opensource2021}.
+Such open source community was initiated in 1978 by Donald Knuth who designed \TeX, typesetting system, which is a role model for open source projects where organisational phases of its development and the relative and simple accessibility to users were crucial to its success \cite{gaudeul2007}.
 Then, in 1983 Richard Stallman, with the frustration to not freely inspect, modify or share software, founded the GNU project to then create a GNU manifesto \cite{stallman1985}.
-Such projects were the corner stone of what is known as the Open Software Initiative, founded by Bruce Perens and Eric S. Raymond in 1998, stating that projects must be free re distributable, code must be available and distributable, modification must be allowed, etc \cite{brasseur2018}.
-Following a similar spirit that software can be used, studied, copied, modified, and redistributed without restriction, projects of open source hardware started to emerge in mid 2000s emerged (e.g., OpenCores, RepRap (3D printing), Arduino, Adafruit and SparkFun) \cite{pearce2013}.
+Both \TeX and GNU project were the corner stone of what is known today as the Open Software Initiative, founded by Bruce Perens and Eric S. Raymond in 1998, stating that projects must be free re distributable, code must be available and distributable, modification must be allowed, etc \cite{brasseur2018}.
+Following a similar spirit that software can be used, studied, copied, modified, and redistributed without restriction, projects of open source hardware started to emerge in mid 2000s (e.g., OpenCores, RepRap (3D printing), Arduino, Adafruit and SparkFun) \cite{pearce2013}.
 
-Then, in the last decade, another wave of scientific innovation has been emerging in the field of AI due to open source software frameworks (e.g. pytorch, tensorflow, etc.) and places to distribute these (e.g. GitHub, gitlab, bitbucket) \cite{matelabs2017}.
-However, little has been done for child-centred AI and Robotics. 
-For instance, Otto DIY is an educational open source robot founded in 2016 by Camilo Parra, where the community of OTTO has more than 20,000 users from 20 countries and more than 100 re-designs of the robot \cite{OttoDIY:2016}.
+Then, in the last decade, another wave of scientific innovation for open source resources started with open source software frameworks (e.g. pytorch, tensorflow, etc.) along with places to distribute these (e.g. GitHub, gitlab, bitbucket, etc) \cite{matelabs2017}.
+However, our understanding is that little has been done for child-centred AI and Robotics. 
+For instance, Otto DIY is an educational open source robot founded in 2016 by Camilo Parra, where the community of Otto has more than 20,000 users from 20 countries and more than 100 re-designs of the robot \cite{OttoDIY:2016}.
 Another example is the JPL Open Source Rover, created by engineers at NASA and initially released in April 2018, which it is designed with detailed instructions for constructions for mainly high school students, and open source technical specifications, 3D models and assembly instructions \cite{OSR:2018}.
-Recently, engineers at NVIDIA in 2019, released nano JetBot as a affordable, education and fun platform  "to give the hands on experience needed to create entirely new AI projects" \cite{nanoJetBot:2019}. 
+Recently, engineers at NVIDIA in 2019, released nano JetBot platform  "to give the hands on experience needed to create entirely new AI projects" \cite{nanoJetBot:2019}. 
 
-That said, there is opportunity to create educational resources to teach AI and robotics to children aiming to be, as pointed by JetBot, affordable, educational and fun \cite{nanoJetBot:2019}, where our prototype, explained in next section, is starting to tackle few of them. 
-Table~\ref{tab:opensourceprojects} summarises open source projects with year of establishment and cost.
+On other hand, there is an inherent engagement in children with robots as a way to use robots to enact education solutions \cite{druga2019}. 
+They take advantage of real-time deployments from computers/mobile into real robots based on the Do-It-Yourself approach. 
+Thus, the platforms encourage programming skills in children. 
+Shybo is a robot that combines open-source hardware and software \cite{Lupetti2017}.
+Shybo can perceive sounds and react through non-verbal behaviors (movements and lights). 
+The creators claim that Shybo can also be used in educational contexts to support playful learning experiences. 
+Sparky is an Arduino-based mobile robot. Creators provide schematics, 3D model files, and source code underneath are all open source \cite{sparky2012}. 
+Using block or code programming, Sparky introduces programming from elementary-age to adults.
+
+That being said, there is opportunity to create educational resources to teach AI and Robotics to children aiming to be, as pointed by the project JetBot, "affordable, educational and fun" \cite{nanoJetBot:2019} as well as to have child-centred programming languages.
 
 %BLURS
-
 %One example is the implementation of a low-cost robot with convolutional neural networks that recognise six basic face emotions: 
 %happy, sad, surprise, fear, anger and neutral \cite{ho2016, ruiz-garcia2016}. 
 
@@ -264,11 +272,15 @@ Adopting the philosophy of open source, AIR4Children is aiming to tackle the nee
 For instance, as a way to mitigate the hight prices of educational robots, our initial prototypes of AIR4Children are in the range of 100.00 EUROS. 
 Such prototype, based on raspberry pi, arduino uno board and few actuators, is able to recognise voice commands in English language to move the robot in different directions (Fig \ref{fig:teaser}(a)).
 Similarly, we have identified Otto robot, a DIY educational robot, which is based on arduino, servomotors and a scratch as interface to program the robot with various routines for sensors and actuators with a price of EURO 100.00 (Fig \ref{fig:tm} (b)). 
+In addition to the release of JPL Open Source Rover by engineers at NASA in April 2018 with a price of 2500 USD \cite{OSR:2018} or
+nano JetBot platform developed by engineers at NVIDIA in March 2019 with a price of 212 EUROS \cite{nanoJetBot:2019}. 
+See Table~\ref{tab:opensourceprojects} that summarises open source projects with year of establishment and cost.
+
 
 \section{AIR4Children as a open source project}
 Having known the benefits of not only the lower price of open source projects but the increase of customisation and control of these, AIR4Children is therefore intending to adopt a similar journey along the lines of open source principles with the aim of making affordable, customisable and accessible tools for a child-centred AIR.
 
-That said, in a first phase, AIR4Children project will be piloting teaching materials with our open source robots and otto, a well known open source educational robot \cite{OttoDIY:2016}.  
+That said, in a first phase, AIR4Children project will be piloting teaching materials with our open source robots and Otto, a well known open source educational robot \cite{OttoDIY:2016}.  
 Then in a second phase, and with feedback of the pilots, teaching materials as well as the customisation of open source robots will be improved to polish a more child-centred curriculum of AIR. 
 On a third phase, children and adolescents in a range of age between 6 to 14 years old will be invited to enroll on workshops to be free of charge to all the participants. 
 In this regard, this initial phases of the project will help us to provide evidence of the impact of AIR in a children of different backgrounds and evaluate children's perception on the fields of AI and Robotics.  
