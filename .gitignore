@@ -4,3 +4,14 @@
 
 ## vim temporal files
 **/*.swp
+
+## temporal files for local tex build
+**/*.aux
+**/*.fdb_lamexmk
+**/*.fls
+**/*.log
+**/*.nav
+**/*.pdf
+**/*.snm
+**/*.synctex.gz
+**/*.toc
