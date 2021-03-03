@@ -5,6 +5,7 @@ on:
       - no-main
       - 01-ci
       - 03-distillation
+      - 07-reviews
       - adds-branch-name
 
 jobs:
