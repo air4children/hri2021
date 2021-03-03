@@ -7,7 +7,7 @@
 
 ## temporal files for local tex build
 **/*.aux
-**/*.fdb_lamexmk
+**/*.fdb_latexmk
 **/*.fls
 **/*.log
 **/*.nav
@@ -15,3 +15,4 @@
 **/*.snm
 **/*.synctex.gz
 **/*.toc
+**/_minted-main
