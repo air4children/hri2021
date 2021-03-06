@@ -6,37 +6,38 @@
 2. Copy references.bib in the path 
 cp ../references/references.bib .
 
-4. compite in one path
+3. compite in one path
 uncomment
 ```
 \bibliography{references}
 ```
-compile tex file
+
+4. compile tex file
 ```
 pdflatex main.tex
 bibtex main
 ```
 
-uncomment/comment
+4.1 uncomment/comment
 
 ```
 %\bibliography{../references/references}
 \input{main.bbl}
 ```
 
-compile tex
+4.2 compile tex
 ```
 pdflatex main-arxiv.tex
 pdflatex main-arxiv.tex
 ```
 
 
-clean project 
+4.3 clean project 
 ```
 rm -f *.aux *.blg *.log *.out main.pdf comment.cut
 ```
 
-4. compress it as zip and upload it
+5. compress it as zip and upload it
 ```
 zip -r arxiv-v00.zip ../arxiv/
 ```
@@ -67,9 +68,11 @@ Summary of attempted TeX compilation runs:
 ```
 
 
+## Identify needles to be tested
+
 NN.
-NN. Processing your submission may take several minutes.
-NN. Submit 
+NN. Processing your submission may take several minutes.   
+NN. Submit   
 
 
 NN. submit/3636735 	New  	AIR4Children: Artificial Intelligence and Robotics for Children 	processing 	
