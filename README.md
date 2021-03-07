@@ -1,8 +1,5 @@
 # air4children: Artificial Intelligence and Robotics for Children 
-[![GitHub Actions Status](https://github.com/air4children/hri2021/workflows/Compiling-TeX-Article/badge.svg)](https://github.com/air4children/hri2021/actions) [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2021/blob/pdfs/article.pdf)
-
-[![GitHub Actions Status](https://github.com/air4children/hri2021/workflows/Compiling-TeX-Slides/badge.svg)](https://github.com/air4children/hri2021/actions) [![article](https://img.shields.io/badge/see-slides-blue.svg)](https://github.com/air4children/hri2021/blob/pdfs/slides.pdf)
-
+[![GitHub Actions Status](https://github.com/air4children/hri2021/workflows/Compiling-TeX-Article/badge.svg)](https://github.com/air4children/hri2021/actions) [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2021/blob/pdfs/article.pdf)  [![GitHub Actions Status](https://github.com/air4children/hri2021/workflows/Compiling-TeX-Slides/badge.svg)](https://github.com/air4children/hri2021/actions) [![article](https://img.shields.io/badge/see-slides-blue.svg)](https://github.com/air4children/hri2021/blob/pdfs/slides.pdf)
 
 ## Abstract
 We introduce AIR4Children, Artificial Intelligence for Children, as a way to (a) tackle aspects for inclusion accessibility, transparency, equity, fairness and participation and (b) to create affordable child-centred materials in AI and Robotics (AIR). 
@@ -16,4 +13,26 @@ Finally, we conclude with the opportunities of our work and mainly we pose the f
 Workshop in conjunction with the ACM International Conference of Human-Robot Interaction (HRI2021)
 8 March 2021 (online). See [README.md](workshop/README.md) to know more about the workshop.
 
+## Licence and Citation 
+This work is under Creative Commons Attribution-Share Alike license [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/). 
+Hence, you are free to reuse it and modify it as much as you want and as long as you cite [this work](https://github.com/air4children/hri2021) as original reference and you re-share your work under the same terms.
 
+## Cite as 
+> Xochicale, M. (2021): AIR4Children: Artificial Intelligence and Robotics for Children. https://github.com/air4children/hri2021
+
+## BibTeX to cite
+```
+@article{Xochicale2021,
+author = "Montenegro Rocio and Corona Elva and Badillo-P\'erez Donato and Mandujano Angel and V\'azquez Leticia and Cruz Dago and Xochicale Miguel",
+title = "{AIR4Children: Artificial Intelligence and Robotics for Children}",
+year = "2021",
+month = "3",
+publisher = {Association for Computing Machinery},
+url = "https://github.com/air4children/hri2021",
+series = {HRI '21}
+}
+```
+
+## Contact 
+If you have specific questions about the content of this repository, you can drop us an email to [air4children@gmail.com](mailto:air4children@gmail.com?subject="[questions]"). 
+If your question might be relevant to other people, please instead [open an issue](https://github.com/air4children/hri2021/issues).
