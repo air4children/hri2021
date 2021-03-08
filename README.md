@@ -8,7 +8,7 @@ Then, we describe the avenues that AIR4Children can take with the development of
 Similarly, we propose to follow the philosophy of Montessori education to help children to not only develop computational thinking but also to internalise new concepts and learning skills through activities of movement and repetition.
 Finally, we conclude with the opportunities of our work and mainly we pose the future work of putting in practice what is proposed here to evaluate the potential impact on AIR to children, instructors, parents and their community. 
 
-## Paper and Slides (100% Reproducible)
+## Article and Slides (100% Reproducible)
 [![GitHub Actions Status](https://github.com/air4children/hri2021/workflows/Compiling-TeX-Article/badge.svg)](https://github.com/air4children/hri2021/actions) [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2021/blob/pdfs/article.pdf)  [![GitHub Actions Status](https://github.com/air4children/hri2021/workflows/Compiling-TeX-Slides/badge.svg)](https://github.com/air4children/hri2021/actions) [![article](https://img.shields.io/badge/see-slides-blue.svg)](https://github.com/air4children/hri2021/blob/pdfs/slides.pdf) (using [free-cortex framework](https://github.com/free-cortex/framework)).
 
 ## Child-Robot Interaction & Child's Fundamental Rights
