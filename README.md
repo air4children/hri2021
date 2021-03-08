@@ -1,4 +1,4 @@
-# air4children: Artificial Intelligence and Robotics for Children 
+# AIR4Children: Artificial Intelligence and Robotics for Children 
 
 ## Abstract
 We introduce AIR4Children, Artificial Intelligence for Children, as a way to (a) tackle aspects for inclusion accessibility, transparency, equity, fairness and participation and (b) to create affordable child-centred materials in AI and Robotics (AIR). 
