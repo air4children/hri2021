@@ -1,0 +1,67 @@
+\documentclass[xcolor={dvipsnames},aspectratio=169,10pt]{beamer}
+\input{preamble.tex}
+
+\title{AIR4Children: Artificial Intelligence and Robotics for Children}
+%\subtitle{...}
+\author{
+R. Montenegro,
+E. Corona,
+D. Badillo-P\'erez,
+A. Mandujano,
+L. V\'azquez,
+D. Cruz,
+{\bf Miguel Xochicale}
+}
+\date{
+Workshop on Child-Robot Interaction \& Child's Fundamental Rights at {\bf \#HRI2021} \\
+March 08, 2021
+}
+\institute{
+	\faEnvelope   air4children@gmail.com \\
+	\faGithubAlt @air4children \faTwitter @air4children  
+		}
+
+\titlegraphic{
+  \begin{tikzpicture}[overlay, remember picture]
+    \node[%
+      above right=0.35cm and -0.2cm of current page footer area.south west,
+      anchor=south west,
+      inner sep=0pt] {%
+      \usebeamerfont{footline}
+      \begin{tabular}{lm{.8\textwidth}}
+        \href{http://creativecommons.org/licenses/by/4.0/}{\ccby} &
+        This slices is licensed under a
+	\href{http://creativecommons.org/licenses/by/4.0/}
+		{Creative Commons ``Attribution 4.0 International''} license. 
+	\par Get source of this slides and see further references 
+		from \url{https://github.com/air4children/hri2021}.
+      \end{tabular}
+    };
+    \node[%
+      above left=0.35cm and 0cm of current page footer area.south east,
+      anchor=south east,
+      inner sep=0pt]{\qrcode[height=1.5cm]{https://github.com/air4children/hri2021}};
+  \end{tikzpicture}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Contents}
+    \tableofcontents
+\end{frame}
+
+\input{sources/introduction}
+\input{sources/air4children}
+\input{sources/conclusions-future-work}
+
+
+%\begin{frame}[standout]
+%  Thanks \\
+%  Questions?
+%\end{frame}
+
+\maketitle
+
+\end{document}
