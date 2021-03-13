@@ -5,8 +5,7 @@
 sh A_copy-tex-figures.sh
 ```
 
-2. compite in one path
-edit tex as follows
+2. edit `main.tex` as follows
 ```
 %\graphicspath{{../figures}} %goes to path: figures/
 \includegraphics[width=\textwidth]{drawing-v01.png}
@@ -14,43 +13,46 @@ edit tex as follows
 \bibliography{../../references/references}
 ```
 
-4. compile tex file
+3. compile `main.tex` file
 ```
 cd files/
 sh ../B_pdflatex-bibtex.sh
 ```
-4.1 edit bio section as follows
+3.1 edit reference section as follows
 ```
 %%\bibliography{../references/references}
 \input{main.bbl} %% uncomment for arxiv version
 ```
 
-4.2 compile tex
+3.2 compile `main.tex`
 ```
 cd files/
 sh ../C_pdflatex-pdflatex.sh
 ```
 
-4.3 check pdf 
+3.3 check pdf 
 ```
 cd files/
 evince main.pdf
 ```
 
-4.4 clean project 
+3.4 clean project 
 ```
 cd files/
 sh ../D_clean-tex-project.sh
 ```
 
-5. compress it as zip and upload it
+4. compress it as zip 
 ```
 sh E_zip_files.sh v01
 ```
 
+:tada: zip is ready to be submitted in arXiv
 
+
+# arXiv submission
+Login to arXiv and submit the above zip file
 ## Output of arXiv processing 
-
 ```
 Processing Status: Succeeded!
 
@@ -72,18 +74,16 @@ Summary of attempted TeX compilation runs:
 
 ```
 
-
-## Identify needles to be tested
-
+Number/Status of submission
+```
 NN.
 NN. Processing your submission may take several minutes.   
 NN. Submit   
 
-
 NN. submit/3636735 	New  	AIR4Children: Artificial Intelligence and Robotics for Children 	processing 	
+```
 
 ## Resubmission on Sat 13 Mar 07:00:05 GMT 2021
-
 ```
 Dear arXiv user,
 
