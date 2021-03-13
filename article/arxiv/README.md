@@ -1,51 +1,55 @@
-
 # arXiv submission
 
-0. cp -r tex/ arxiv/
-1. cp image files to arxiv path
-2. Copy references.bib in the path 
-cp ../references/references.bib .
-
-3. compite in one path
-uncomment
+1. copy tex files and images to arxiv/files path
 ```
-\bibliography{references}
+sh A_copy-tex-figures.sh
+```
+
+2. compite in one path
+edit tex as follows
+```
+%\graphicspath{{../figures}} %goes to path: figures/
+\includegraphics[width=\textwidth]{drawing-v01.png}
+\includegraphics[width=\linewidth]{drawing-v00.png}
+\bibliography{../../references/references}
 ```
 
 4. compile tex file
 ```
-pdflatex main.tex
-bibtex main
+cd files/
+sh ../B_pdflatex-bibtex.sh
 ```
-
-4.1 uncomment/comment
-
+4.1 edit bio section as follows
 ```
-%\bibliography{../references/references}
-\input{main.bbl}
+%%\bibliography{../references/references}
+\input{main.bbl} %% uncomment for arxiv version
 ```
 
 4.2 compile tex
 ```
-pdflatex main-arxiv.tex
-pdflatex main-arxiv.tex
+cd files/
+sh ../C_pdflatex-pdflatex.sh
 ```
 
-
-4.3 clean project 
+4.3 check pdf 
 ```
-rm -f *.aux *.blg *.log *.out main.pdf comment.cut
+cd files/
+evince main.pdf
+```
+
+4.4 clean project 
+```
+cd files/
+sh ../D_clean-tex-project.sh
 ```
 
 5. compress it as zip and upload it
 ```
-zip -r arxiv-v00.zip ../arxiv/
+sh E_zip_files.sh v01
 ```
 
 
-
-
-## Output of precessing 
+## Output of arXiv processing 
 
 ```
 Processing Status: Succeeded!
@@ -65,6 +69,7 @@ Summary of attempted TeX compilation runs:
     main.tex:
       Last run for engine pdflatex is second
 
+
 ```
 
 
@@ -77,5 +82,18 @@ NN. Submit
 
 NN. submit/3636735 	New  	AIR4Children: Artificial Intelligence and Robotics for Children 	processing 	
 
+## Resubmission on Sat 13 Mar 07:00:05 GMT 2021
 
+```
+Dear arXiv user,
+
+We have received your submission to arXiv. Your temporary submission
+identifier is: submit/3636735.
+
+You may update your submission at: [LINK] 
+
+Your article is currently scheduled to be announced at Tue, 16 Mar 2021 00:00:00 GMT.
+Updates before Mon, 15 Mar 2021 18:00:00 GMT will
+not delay announcement
+```
 
