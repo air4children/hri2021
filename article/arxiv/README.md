@@ -1,5 +1,5 @@
 # arXiv submission
-
+## Preparation
 1. copy tex files and images to arxiv/files path
 ```
 sh A_copy-tex-figures.sh
@@ -50,9 +50,9 @@ sh E_zip_files.sh v01
 :tada: zip is ready to be submitted in arXiv
 
 
-# arXiv submission
+## Submission
 Login to arXiv and submit the above zip file
-## Output of arXiv processing 
+### Output of arXiv processing 
 ```
 Processing Status: Succeeded!
 
@@ -70,8 +70,6 @@ Summary of attempted TeX compilation runs:
   Last run per file and engine
     main.tex:
       Last run for engine pdflatex is second
-
-
 ```
 
 Number/Status of submission
@@ -83,7 +81,7 @@ NN. Submit
 NN. submit/3636735 	New  	AIR4Children: Artificial Intelligence and Robotics for Children 	processing 	
 ```
 
-## Resubmission on Sat 13 Mar 07:00:05 GMT 2021
+### Resubmission on Sat 13 Mar 07:00:05 GMT 2021
 ```
 Dear arXiv user,
 
