@@ -52,46 +52,5 @@ sh E_zip_files.sh v01
 
 ## Submission
 Login to arXiv and submit the above zip file
-### Output of arXiv processing 
-```
-Processing Status: Succeeded!
-
-Output written on main.pdf (4 pages, 2.10 MB).
-
-If you are attempting to compile with a specific engine (PDFLaTeX, LaTeX,
-TeX) please carefully review the appropriate log below.
-
-Summary of attempted TeX compilation runs:
-
-  Processing;'main.tex'
-    Running pdflatex for first time.
-    Running pdflatex for second time.
-
-  Last run per file and engine
-    main.tex:
-      Last run for engine pdflatex is second
-```
-
-Number/Status of submission
-```
-NN.
-NN. Processing your submission may take several minutes.   
-NN. Submit   
-
-NN. submit/3636735 	New  	AIR4Children: Artificial Intelligence and Robotics for Children 	processing 	
-```
-
-### Resubmission on Sat 13 Mar 07:00:05 GMT 2021
-```
-Dear arXiv user,
-
-We have received your submission to arXiv. Your temporary submission
-identifier is: submit/3636735.
-
-You may update your submission at: [LINK] 
-
-Your article is currently scheduled to be announced at Tue, 16 Mar 2021 00:00:00 GMT.
-Updates before Mon, 15 Mar 2021 18:00:00 GMT will
-not delay announcement
-```
+See [Submission Log](SubmissionLog.md) for further deteails.
 
