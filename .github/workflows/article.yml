@@ -6,6 +6,7 @@ on:
       - 01-ci
       - 03-distillation
       - 07-reviews
+      - 09-arxiv-v01
       - adds-branch-name
 
 jobs:

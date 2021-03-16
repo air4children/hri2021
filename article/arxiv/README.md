@@ -1,81 +1,56 @@
-
 # arXiv submission
-
-0. cp -r tex/ arxiv/
-1. cp image files to arxiv path
-2. Copy references.bib in the path 
-cp ../references/references.bib .
-
-3. compite in one path
-uncomment
+## Preparation
+1. copy tex files and images to arxiv/files path
 ```
-\bibliography{references}
+sh A_copy-tex-figures.sh
 ```
 
-4. compile tex file
+2. edit `main.tex` as follows
 ```
-pdflatex main.tex
-bibtex main
-```
-
-4.1 uncomment/comment
-
-```
-%\bibliography{../references/references}
-\input{main.bbl}
+%\graphicspath{{../figures}} %goes to path: figures/
+\includegraphics[width=\textwidth]{drawing-v01.png}
+\includegraphics[width=\linewidth]{drawing-v00.png}
+\bibliography{../../references/references}
 ```
 
-4.2 compile tex
+3. compile `main.tex` file
 ```
-pdflatex main-arxiv.tex
-pdflatex main-arxiv.tex
+cd files/
+sh ../B_pdflatex-bibtex.sh
 ```
-
-
-4.3 clean project 
+3.1 edit reference section as follows
 ```
-rm -f *.aux *.blg *.log *.out main.pdf comment.cut
-```
-
-5. compress it as zip and upload it
-```
-zip -r arxiv-v00.zip ../arxiv/
+%%\bibliography{../references/references}
+\input{main.bbl} %% uncomment for arxiv version
 ```
 
-
-
-
-## Output of precessing 
-
+3.2 compile `main.tex`
 ```
-Processing Status: Succeeded!
-
-Output written on main.pdf (4 pages, 2.10 MB).
-
-If you are attempting to compile with a specific engine (PDFLaTeX, LaTeX,
-TeX) please carefully review the appropriate log below.
-
-Summary of attempted TeX compilation runs:
-
-  Processing;'main.tex'
-    Running pdflatex for first time.
-    Running pdflatex for second time.
-
-  Last run per file and engine
-    main.tex:
-      Last run for engine pdflatex is second
-
+cd files/
+sh ../C_pdflatex-pdflatex.sh
 ```
 
+3.3 check pdf 
+```
+cd files/
+evince main.pdf
+```
 
-## Identify needles to be tested
+3.4 clean project 
+```
+cd files/
+sh ../D_clean-tex-project.sh
+```
 
-NN.
-NN. Processing your submission may take several minutes.   
-NN. Submit   
+4. compress it as zip 
+```
+sh E_zip_files.sh v01
+```
+
+:tada: zip is ready to be submitted in arXiv
 
 
-NN. submit/3636735 	New  	AIR4Children: Artificial Intelligence and Robotics for Children 	processing 	
-
-
+## Submission
+Login to arXiv and submit the above zip file
+See [Submission Log](SubmissionLog.md) for further deteails.
 
