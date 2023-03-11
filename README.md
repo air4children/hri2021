@@ -22,13 +22,21 @@ This work is under Creative Commons Attribution-Share Alike license [![License: 
 Hence, you are free to reuse it and modify it as much as you want and as long as you cite [this work](https://github.com/air4children/hri2021) as original reference and you re-share your work under the same terms.
 
 ## Cite as 
-> Montenegro, R. (2021): AIR4Children: Artificial Intelligence and Robotics for Children. https://github.com/air4children/hri2021
+> Montenegro, Rocio, Elva Corona, Donato Badillo-Perez, Angel Mandujano, Leticia Vazquez, Dago Cruz, and Miguel Xochicale. "AIR4Children: Artificial Intelligence and Robotics for Children." arXiv preprint arXiv:2103.07637 (2021). https://github.com/air4children/hri2021
 
 ## BibTeX to cite
 ```
 @misc{montenegro2021air4children,
       title={AIR4Children: Artificial Intelligence and Robotics for Children}, 
-      author={Rocio Montenegro and Elva Corona and Donato Badillo-Perez and Angel Mandujano and Leticia Vazquez and Dago Cruz and Miguel Xochicale},
+      author={
+		Rocio Montenegro and 
+		Elva Corona and 
+		Donato Badillo-Perez and 
+		Angel Mandujano and 
+		Leticia Vazquez and 
+		Dago Cruz and 
+		Miguel Xochicale
+		},
       year={2021},
       eprint={2103.07637},
       archivePrefix={arXiv},
@@ -36,7 +44,6 @@ Hence, you are free to reuse it and modify it as much as you want and as long as
       url = {https://github.com/air4children/hri2021},
       series = {HRI '21}
 }
-
 ```
 
 ## Contact 
