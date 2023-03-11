@@ -9,7 +9,9 @@ Similarly, we propose to follow the philosophy of Montessori education to help c
 Finally, we conclude with the opportunities of our work and mainly we pose the future work of putting in practice what is proposed here to evaluate the potential impact on AIR to children, instructors, parents and their community. 
 
 ## Article and Slides (100% Reproducible)
-[![GitHub Actions Status](https://github.com/air4children/hri2021/workflows/Compiling-TeX-Article/badge.svg)](https://github.com/air4children/hri2021/actions) [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2021/blob/pdfs/article.pdf)  [![GitHub Actions Status](https://github.com/air4children/hri2021/workflows/Compiling-TeX-Slides/badge.svg)](https://github.com/air4children/hri2021/actions) [![article](https://img.shields.io/badge/see-slides-blue.svg)](https://github.com/air4children/hri2021/blob/pdfs/slides.pdf) (using [free-cortex framework](https://github.com/free-cortex/framework)).
+[![GitHub Actions Status](https://github.com/air4children/hri2021/workflows/Compiling-TeX-Article/badge.svg)](https://github.com/air4children/hri2021/actions) [![article](https://img.shields.io/badge/read-article-blue.svg)](https://github.com/air4children/hri2021/blob/pdfs/article.pdf)  [![GitHub Actions Status](https://github.com/air4children/hri2021/workflows/Compiling-TeX-Slides/badge.svg)](https://github.com/air4children/hri2021/actions) [![article](https://img.shields.io/badge/see-slides-blue.svg)](https://github.com/air4children/hri2021/blob/pdfs/slides.pdf) (using [free-cortex framework](https://github.com/free-cortex/framework)).     
+
+![fig](slides/gif-slides/slides.gif)
 
 ## Child-Robot Interaction & Child's Fundamental Rights
 Workshop in conjunction with the ACM International Conference of Human-Robot Interaction (HRI2021)

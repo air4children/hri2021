@@ -12,11 +12,14 @@ author := Miguel Xochicale
 
 ## Tools
 LATEXMK = latexmk
+PDFLATEX = pdflatex
+LATEX_FLAGS = -shell-escape -halt-on-error -file-line-error
 RM = rm -f
 EVINCE = evince
 
 ##Project name
 PROJNAME=main
+#PROJNAME=slides
 
 ## Rules
 $(PROJNAME).pdf: $(PROJNAME).tex
@@ -30,4 +33,6 @@ mostlyclean:
 
 clean: mostlyclean
 	$(LATEXMK) -silent -c
-	$(RM) main.pdf *.bbl *.run.xml -rf _minted-main *.pyg example.out
+	$(RM) main.pdf *.log *.bbl *.run.xml -rf _minted-main *.pyg example.out
+
+
